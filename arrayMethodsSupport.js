@@ -1,5 +1,6 @@
 /*
-* array.js
+* 
+* arrayMethodsSupport.js
 * https: //github.com/ferrod20/array.js
 *
 * Addition by js of native array methods not supported by old browsers
