@@ -1,4 +1,15 @@
-﻿///Native array methods not supported by old browsers
+/*
+* array.js
+* https: //github.com/ferrod20/array.js
+*
+* Addition by js of native array methods not supported by old browsers
+*
+* version: 0.1 (alpha)
+* Created by Fernando Rodriguez
+* 
+* Based on 2  ECMAScript 5.1 http://es5.github.io/#x15.4
+*
+*/
 
 if (!Array.isArray) {
     Array.isArray = function (arg) {
