@@ -9,4 +9,4 @@ Array.js offers javascript array useful set methods like:
 [1,2,3,4].exclusion([2,3,5]); //return [1,4,5]
 ```
 
-See more at 
+See more at [http://ferrod20.github.io/array.js/](http://ferrod20.github.io/array.js/)
