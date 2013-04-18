@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Array.js : Useful javascript array set methods like: subtract, intersect, exclusion, etc" />
+    <meta name="description" content="array.js : Useful javascript array methods like: subtract, intersect, exclusion, etc" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Array.js</title>
+    <title>array.js</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/ferrod20/array.js">View on GitHub</a>
 
-          <h1 id="project_title">Array.js</h1>
-          <h2 id="project_tagline">Useful javascript array set methods like: subtract, intersect, exclusion, etc</h2>
+          <h1 id="project_title">array.js</h1>
+          <h2 id="project_tagline">Useful javascript array methods like: subtract, intersect, exclusion, etc</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/ferrod20/array.js/zipball/master">Download this project as a .zip file</a>
@@ -31,33 +31,33 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>Array.js</h1>
+        <h1>array.js</h1>
 
-<p>Array.js offers javascript array useful set methods like:</p>
+<p>array.js offers javascript array useful methods like:</p>
 
-<pre><code>[1,2,3,4].subtract([2,3,5]); //return [1,4]
-[1,2,3,4].intersect([2,3,5]); //return [2,3]
-[1,2,3,4].exclusion([2,3,5]); //return [1,4,5]
+<pre><code>[1,2,3,4].subtract([2,3,5]); //returns [1,4]
+[1,2,3,4].intersect([2,3,5]); //returns [2,3]
+[1,2,3,4].exclusion([2,3,5]); //returns [1,4,5]
 </code></pre>
 
 <p>and native array methods support for old browsers:</p>
 
-<pre><code>isArray, indexOf, lastIndexOf, filter, forEach, map, some, every
+<pre><code>filter, forEach, map, some, every, isArray, indexOf, lastIndexOf, 
 </code></pre>
 
 <hr><h2>How to use it</h2>
 
 <p>Just add </p>
 
-<pre><code>&lt;script type="text/javascript" src="arraySet.js"&gt;&lt;/script&gt;
+<pre><code>&lt;script type="text/javascript" src="array.js"&gt;&lt;/script&gt;
 </code></pre>
 
-<p>Include this line if you want native array methods support (only needed for old browsers)</p>
+<p>Include this line if you want support for old browsers</p>
 
-<pre><code>&lt;script type="text/javascript" src="arrayMethodsSupport.js"&gt;&lt;/script&gt;
+<pre><code>&lt;script type="text/javascript" src="oldBrowsersSupport.js"&gt;&lt;/script&gt;
 </code></pre>
 
-<p>and you'll be able to safely use set and native array methods</p>
+<p>and you'll be able to safely use array methods</p>
 
 <h2>Documentation</h2>
 
@@ -65,26 +65,32 @@
 
 <p><em><strong>subtract:</strong></em></p>
 
-<pre><code>a.subtract(b, fun)
+<pre><code>a,b: arrays
+func: a comparision function. Takes one element of array a and one element of array b. Returns true if a and b are equals
+
+a.subtract(b, func)
 Returns elements of array a not contained in array b. 
-Uses fun(elemA, elemB) as comparision function. 
-If it's not provided uses elemA == elemB 
+If func it's not provided uses == for elements comparision
 </code></pre>
 
 <p><em><strong>intersect:</strong></em></p>
 
-<pre><code>a.intersect(b, fun)
+<pre><code>a,b: arrays
+func: a comparision function. Takes one element of array a and one element of array b. Returns true if a and b are equals
+
+a.intersect(b, func)
 Returns common elements between array a and array b. 
-Uses fun(elemA, elemB) as comparision function. 
-If it's not provided uses elemA == elemB 
+If func it's not provided uses == for elements comparision
 </code></pre>
 
 <p><em><strong>exclusion:</strong></em></p>
 
-<pre><code>a.exclusion(b, fun)
+<pre><code>a,b: arrays
+func: a comparision function. Takes one element of array a and one element of array b. Returns true if a and b are equals
+
+a.exclusion(b, func)
 Returns not common elements between array a and array b. 
-Uses fun(elemA, elemB) as comparision function. 
-If it's not provided uses elemA == elemB 
+If func it's not provided uses == for elements comparision
 </code></pre>
 
 <h3>Native array methods</h3>
@@ -97,7 +103,7 @@ If it's not provided uses elemA == elemB
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Array.js maintained by <a href="https://github.com/ferrod20">ferrod20</a></p>
+        <p class="copyright">array.js maintained by <a href="https://github.com/ferrod20">ferrod20</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
