@@ -1,7 +1,7 @@
 array.js
 ========
 
-array.js offers javascript array useful set methods like:
+array.js offers javascript useful array methods like:
 
 ```
 [1,2,3,4].subtract([2,3,5]); //return [1,4]
