@@ -69,3 +69,7 @@ If func it's not provided uses == for elements comparision
 ### Native array methods
 You can find good documentation about native array methods at [mozilla developer page](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/prototype) or at 
 [ECMAScript page](http://es5.github.io/#x15.4)
+
+## License
+
+array.js is released under the [MIT License](http://opensource.org/licenses/MIT).
