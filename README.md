@@ -1,4 +1,4 @@
-array.js
+array.js: Useful set of javascript array methods.
 ========
 
 array.js offers useful javascript array methods like:
@@ -11,7 +11,7 @@ array.js offers useful javascript array methods like:
 
 and array methods support for old browsers:
 
-```
+``` javascript
 filter, forEach, map, some, every, isArray, indexOf, lastIndexOf, 
 ```
 
@@ -35,7 +35,7 @@ and you'll be able to safely use array methods
 ### Set methods
 
 _**subtract:**_
-```javascript
+```
 a,b: arrays
 func: a comparision function. Takes one element of array a and one element of array b. Returns true if a and b are equals
 
