@@ -3,7 +3,7 @@ array.js
 
 array.js offers useful javascript array methods like:
 
-```
+``` javascript
 [1,2,3,4].subtract([2,3,5]); //returns [1,4]
 [1,2,3,4].intersect([2,3,5]); //returns [2,3]
 [1,2,3,4].exclusion([2,3,5]); //returns [1,4,5]
@@ -20,12 +20,12 @@ filter, forEach, map, some, every, isArray, indexOf, lastIndexOf,
 ## How to use it
 Just add 
 
-```
+``` html
 <script type="text/javascript" src="array.js"></script>
 ```
 
 Include this line if you want support for old browsers
-```
+``` html
 <script type="text/javascript" src="oldBrowsersSupport.js"></script>
 ```
 and you'll be able to safely use array methods
@@ -35,7 +35,7 @@ and you'll be able to safely use array methods
 ### Set methods
 
 _**subtract:**_
-```
+```javascript
 a,b: arrays
 func: a comparision function. Takes one element of array a and one element of array b. Returns true if a and b are equals
 
