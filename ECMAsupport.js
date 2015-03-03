@@ -1,14 +1,16 @@
 /*
 * 
-* arrayMethodsSupport.js
+* ECMAsupport.js
 * https: //github.com/ferrod20/array.js
 *
-* Addition by js of native array methods not supported by old browsers
+* Addition by js of ECMA array methods not supported by old browsers
+*
+* This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
 *
 * version: 0.1 (alpha)
 * Created by Fernando Rodriguez
 * 
-* Based on 2  ECMAScript 5.1 http://es5.github.io/#x15.4
+* Based on ECMAScript 5.1 http://es5.github.io/#x15.4
 *
 */
 
