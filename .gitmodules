@@ -1,0 +1,3 @@
+[submodule "sm"]
+	path = sm
+	url = https://github.com/ferrod20/jDraggable.git
